@@ -12,6 +12,7 @@ int main(int argc, char** argv)
   ros::NodeHandle nh;
 
   std::cout<<"capture video"<<std::endl;
+  //VideoCapture cap("/home/jaeyong/Chanhoe_Segmentation/mb1.mp4");
   VideoCapture cap("/home/jaeyong/Chanhoe_Segmentation/mb1_out.mp4");
   if (!cap.isOpened())
   {
